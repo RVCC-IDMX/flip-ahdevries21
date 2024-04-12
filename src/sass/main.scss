@@ -1,3 +1,23 @@
 /* main */
 @use "./base/reset";
 @use "./pages/home";
+
+:root{
+    --clr-primary-100: hsl(100,100,100);
+    --clr-primary-200: hsl(358,100,93); 
+    --clr-primary-300:
+}
+
+.product-card{
+    background-color: pink;
+    width:500px;
+    height:600px;
+    padding-inline: 10px;
+    padding-block: 20px;
+}
+.card-content{
+    text-align:center;
+}
+.product-card-image{
+    max-width: 100%;
+}
